@@ -1,0 +1,12 @@
+[package]
+name = "zebra"
+version = "0.1.0"
+authors = ["vigneshsrao <vigneshsrao5@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitflags = "*"
+[profile.release]
+debug = true

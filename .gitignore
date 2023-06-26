@@ -1,0 +1,5 @@
+/target
+/testing
+/fuzzing
+Cargo.lock
+.swp
